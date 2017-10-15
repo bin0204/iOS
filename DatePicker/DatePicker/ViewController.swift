@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     let interval = 1.0
     var count = 0
     
+    //variable for alarm
     var alarmTime: String?
     
     //LAYOUT
@@ -62,6 +63,7 @@ class ViewController: UIViewController {
         formatter.dateFormat = "hh:mm aaa"
         let currentTime = formatter.string(from: date as Date)
         
+        //Change the background colr to red when current time is as same as picker time
         if (alarmTime == currentTime) {
             view.backgroundColor = UIColor.red
         }
