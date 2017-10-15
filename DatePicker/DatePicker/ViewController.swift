@@ -44,6 +44,7 @@ class ViewController: UIViewController {
         //A formatter that converts between dates and their textual representations.
         let formatter = DateFormatter()
         formatter.dateFormat = "MM-dd-yyyy HH:mm:ss EEE"
+        //Store the converted string into text
         lblPickerTime.text = "Picker Time: " + formatter.string(from: datePickerView.date)
         
         formatter.dateFormat = "hh:mm aaa"
@@ -58,6 +59,7 @@ class ViewController: UIViewController {
         let date = NSDate()
         let formatter = DateFormatter()
         formatter.dateFormat = "MM-dd-yyyy HH:mm:ss EEE"
+        //Store the converted string into text
         lblCurrentTime.text = "Current Time: " + formatter.string(from: date as Date)
     
         formatter.dateFormat = "hh:mm aaa"
