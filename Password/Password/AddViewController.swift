@@ -11,6 +11,7 @@ import UIKit
 class AddViewController: UIViewController {
 
     @IBOutlet weak var tfAddItem: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,6 +24,11 @@ class AddViewController: UIViewController {
     }
     
     @IBAction func btnAddItem(_ sender: UIButton) {
+        items.append(tfAddItem.text!)
+        itemsImageFile.append("google.png")
+        tfAddItem.text = ""
+        _ = navigationController?.popViewController(animated: true) //go back to tabelView
+        
     }
     
     /*

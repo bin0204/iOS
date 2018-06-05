@@ -17,6 +17,7 @@
 		B07D4F9820BFF8ED00F6D948 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07D4F9720BFF8ED00F6D948 /* TableViewController.swift */; };
 		B07D4F9A20BFF91000F6D948 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07D4F9920BFF91000F6D948 /* AddViewController.swift */; };
 		B07D4F9C20BFF92200F6D948 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07D4F9B20BFF92200F6D948 /* DetailViewController.swift */; };
+		B07D4F9E20C0138A00F6D948 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = B07D4F9D20C0138A00F6D948 /* google.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B07D4F9720BFF8ED00F6D948 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B07D4F9920BFF91000F6D948 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		B07D4F9B20BFF92200F6D948 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B07D4F9D20C0138A00F6D948 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		B07D4F7E20BFF60900F6D948 /* Password */ = {
 			isa = PBXGroup;
 			children = (
+				B07D4F9D20C0138A00F6D948 /* google.png */,
 				B07D4F9320BFF61E00F6D948 /* daum.png */,
 				B07D4F9120BFF61E00F6D948 /* facebook.png */,
 				B07D4F9220BFF61E00F6D948 /* naver.png */,
@@ -142,6 +145,7 @@
 				B07D4F9620BFF61E00F6D948 /* daum.png in Resources */,
 				B07D4F9520BFF61E00F6D948 /* naver.png in Resources */,
 				B07D4F8720BFF60F00F6D948 /* Assets.xcassets in Resources */,
+				B07D4F9E20C0138A00F6D948 /* google.png in Resources */,
 				B07D4F8520BFF60900F6D948 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

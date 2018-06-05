@@ -9,12 +9,15 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    var receiveItem = "" //main view에서 받을 텍스트를 위해 선언
+    
     @IBOutlet weak var lblItem: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        lblItem.text = receiveItem
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +25,9 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func receiveItem(_ item: String) {
+        receiveItem = item
+    }
 
     /*
     // MARK: - Navigation
